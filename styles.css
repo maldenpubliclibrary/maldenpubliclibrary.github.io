@@ -16,6 +16,16 @@ body {
   }
   
   /* TABLE */
+
+  .about:hover {
+    background-color: rgb(27, 76, 119);
+    color: white;
+  }
+
+  .artistName:hover {
+    font-weight: 700;
+    background-color:rgb(27, 76, 119);
+  }
   
   table {
     width: 60%;
@@ -75,6 +85,12 @@ body {
 
   .welcome {
       text-align: center;
+  }
+
+  .monthHead {
+    border: none;
+    font-size: 150%;
+    background-color: black;
   }
   
   
