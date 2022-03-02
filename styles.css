@@ -14,11 +14,13 @@ body {
     font-style: italic;
     text-align: center;
   }
+
   
   /* TABLE */
   
   table {
     width: 60%;
+    table-layout: auto;
     margin: auto;
     margin-top: 24px;
   }
