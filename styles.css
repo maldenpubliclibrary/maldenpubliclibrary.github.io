@@ -16,16 +16,6 @@ body {
   }
   
   /* TABLE */
-
-  .about:hover {
-    background-color: rgb(27, 76, 119);
-    color: white;
-  }
-
-  .artistName:hover {
-    font-weight: 700;
-    background-color:rgb(27, 76, 119);
-  }
   
   table {
     width: 60%;
@@ -55,6 +45,7 @@ body {
   
   .docs {
     text-align: center;
+    font-size: 80%;
   }
   
   .docs a, a:visited {
