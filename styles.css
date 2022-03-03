@@ -1,8 +1,8 @@
 body {
     font-family: "Times New Roman";
-    background-color: #9F654F;
+    background-color: #c59480 ;
   }
-  
+
   .logo1 {
     display: block;
     margin-left: auto;
@@ -61,16 +61,6 @@ body {
     font-size: 80%;
   }
   
-  .docs a, a:visited {
-    text-decoration: none;
-    text-transform: uppercase;
-    color:  black;
-  }
-
-  .docs a:hover {
-     background-color: rgb(27, 76, 119);
-  }
-  
   .month {
     text-transform: uppercase;
     font-weight: 600;
@@ -98,6 +88,22 @@ body {
   }
   
   #year {
+    color: white;
+  }
+
+  /* LINKS */
+
+  .docs a, a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  black;
+  }
+
+  .docs a:hover {
+     background-color: #9C4139;
+  }
+
+  .docs a:active {
     color: white;
   }
   
