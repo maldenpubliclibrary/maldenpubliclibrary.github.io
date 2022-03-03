@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: "Times New Roman";
     background-color: #c59480 ;
   }
@@ -27,7 +27,6 @@ body {
     text-align: center;
   }
 
-  
   /* TABLE */
   
   table {
@@ -35,6 +34,7 @@ body {
     table-layout: auto;
     margin: auto;
     margin-top: 24px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 10px 6px 6px rgba(0,0,0,0.23);
   }
 
   td {
@@ -43,7 +43,6 @@ body {
     color: black;
   }
   th {
-  
     padding: 1px;
     color: black;
   }
@@ -52,6 +51,7 @@ body {
     background-color: #9C4139;
     font-size: 18px
   }
+
   
   /* CLASSES */
   
@@ -78,17 +78,18 @@ body {
   }
 
   .welcome {
-      text-align: center;
+    text-align: center;
   }
 
   .monthHead {
     border: none;
     font-size: 150%;
-    background-color: black;
+    background-color: #9C4139;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 10px 0 6px rgba(0,0,0,0.23);
   }
   
   #year {
-    color: white;
+    color: black;
   }
 
   /* LINKS */
