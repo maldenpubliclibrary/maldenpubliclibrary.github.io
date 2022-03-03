@@ -1,11 +1,23 @@
 body {
     font-family: "Times New Roman";
-    background-image: linear-gradient(rgb(155, 214, 241), rgb(46, 111, 231));
+    background-color: #9F654F;
   }
   
+  .logo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .banner {
+    margin: 0 auto;
+    width: 60%;
+  }
+
   h1 {
     font-family: "Times New Roman";
-    background-color: #488FB1;
+    background-color: #9C4139;
     border-radius: 40px;
     text-align: center;
   }
@@ -27,18 +39,17 @@ body {
 
   td {
     padding: 7px;
-    background-color: #2c7394;
-    border: solid darkgray 2px;
+    background-color: lightgray;
     color: black;
   }
   th {
-    border: solid gray 2px;
+  
     padding: 1px;
     color: white;
   }
   
   .wholeYear {
-    background-color: #1b6283;
+    background-color: #9C4139;
     font-size: 18px
   }
   
