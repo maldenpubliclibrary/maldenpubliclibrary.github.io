@@ -45,7 +45,7 @@ body {
   th {
   
     padding: 1px;
-    color: white;
+    color: black;
   }
   
   .wholeYear {
@@ -97,5 +97,8 @@ body {
     background-color: black;
   }
   
+  #year {
+    color: white;
+  }
   
   
